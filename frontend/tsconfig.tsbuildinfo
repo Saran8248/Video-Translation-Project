@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/types.ts","./src/components/header.tsx","./src/components/jobconfig.tsx","./src/components/progresstracker.tsx","./src/components/segmenteditor.tsx","./src/components/uploadsection.tsx","./src/components/videoplayerpreview.tsx"],"version":"5.9.3"}

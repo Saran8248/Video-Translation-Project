@@ -1,0 +1,15 @@
+import uvicorn
+import os
+import sys
+from pathlib import Path
+
+# Add project root to sys.path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+if __name__ == "__main__":
+    print("=" * 60)
+    print("Starting Video Translation & AI Dubbing Web Application...")
+    print("Accessible in your browser at: http://localhost:8000")
+    print("API Documentation available at: http://localhost:8000/docs")
+    print("=" * 60)
+    uvicorn.run("backend.app.main:app", host="0.0.0.0", port=8000, reload=False)
